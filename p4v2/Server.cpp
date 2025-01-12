@@ -118,7 +118,7 @@ void handleClient(int clientSocket) {
         ss >> operation;
 
         string response;
-                if (operation == "Newgraph") {
+        if (operation == "Newgraph") {
             int vertices, edges;
             ss >> vertices >> edges;
 
